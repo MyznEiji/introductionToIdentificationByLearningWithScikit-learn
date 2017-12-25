@@ -44,7 +44,6 @@ X1 = X[~np.isnan(X[:, 1]) & ~np.isnan(X[:, 0])]
 y1 = y[~np.isnan(X[:, 1]) & ~np.isnan(X[:, 0])]
 
 X1, X1.shape
-    y1, y1.shape
 
 (abs(X1[:, 0]) < 10), (abs(X1[:, 1]) < 10)  # 外れ値対策
 
